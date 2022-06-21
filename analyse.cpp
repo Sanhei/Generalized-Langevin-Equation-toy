@@ -11,7 +11,7 @@
 const int scale = 50;
 int main(int argc, char **argv){
     std::vector<int> trajectory;
-    std::vector<int> traj;
+    std::vector<double> traj;
     double x, y;
     //Because my trajectory file have two column, and only read the second one;
     //Read data from file and put it into vector trajectory
